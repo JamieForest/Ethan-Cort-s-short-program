@@ -7,7 +7,7 @@ def x():
 
 
     password=input("")
-    if password=="Josh2003123":
+    if password=="Password":
         f = open("welcome.txt", "r")
         print(f.read())
         time.sleep(2)
